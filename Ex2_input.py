@@ -192,6 +192,11 @@ print("\n-------------------------------------------\n"
 # Hint: To calculate a 10% tip, you can do: bill * 0.10
 
 # Write your code below:
+bill_cost = int(input("What is the total cost of the bill? "))
+people_sharing = int(input("How many of you are sharing the bill? "))
+tip = int(input("What percentage of tip do you want to leave? "))
+total = (bill_cost + tip)
+print(f"Each of you will have to pay the total of {total / people_sharing}")
 
 
 # -------------------------------------------
