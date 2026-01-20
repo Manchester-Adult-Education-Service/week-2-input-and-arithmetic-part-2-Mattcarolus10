@@ -130,7 +130,9 @@ print("\n-------------------------------------------\n"
 # Print: "You are at least [X] months old!"
 
 # Write your code below:
-
+Age = int(input("What is your age? "))
+age_checker = int(Age * 12)
+print(f"You are at least {age_checker} months old!")
 
 # Extension 2: Name Lengths
 # -------------------------------------------
@@ -143,7 +145,9 @@ print("\n-------------------------------------------\n"
 # Print: "[City] has [X] letters in its name."
 
 # Write your code below:
-
+favourite_city = input("What is your favourite city? ")
+letter_city = len(favourite_city)
+print(f"{favourite_city} has {letter_city} letters in its name")
 
 # Extension 3: The Area Calculator
 # -------------------------------------------
@@ -156,7 +160,10 @@ print("\n-------------------------------------------\n"
 # and print the total area.
 
 # Write your code below:
-
+width = int(input("What is the width of a rectangle? "))
+height = int(input("What is the height of a rectangle? "))
+convert = (width * height)
+print(convert)
 
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
